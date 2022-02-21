@@ -31,13 +31,8 @@ router.post("/",async function(req,res){
         data:token
     })
 
-    }catch(e){
-        return res.json({
-            status:"failed",
-            message:"internal error"
-        })
-
+    }catch {
+        
     }
-    
 });
 module.exports=router;
