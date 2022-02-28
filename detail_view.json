@@ -1,0 +1,214 @@
+{
+  "game": [
+    {
+      "title": "A Bloody Night",
+      "type": "Game",
+      "working_title": false,
+      "official_title": false,
+      "genre": ["Action", "Adventure"],
+      "miscellaneous": ["Game Type", "AAA Game"],
+      "developers": [
+        {
+          "type": "Developer",
+          "name": "Test Dev-1",
+          "platforms": ["PS4", "Apple", "Windows"]
+        },
+        {
+          "type": "Additional Developer",
+          "name": "Test Dev-2",
+          "platforms": ["Apple", "Windows"]
+        }
+      ],
+      "titles": [
+        {
+          "region": "World",
+          "platforms": ["Apple", "Windows"],
+          "type": "Abbreviation",
+          "title": "Test title",
+          "Edition": "Primary"
+        },
+        {
+          "region": "Japan",
+          "platforms": ["PS4", "Apple", "Windows"],
+          "type": "Official",
+          "title": "Test title-2",
+          "Edition": "Primary"
+        }
+      ],
+      "links": [
+        {
+          "region": "Japan",
+          "platforms": ["PS4", "Apple", "Windows"],
+          "type": "Official Website",
+          "title": "https://test.gameopedia.com/",
+          "Edition": "Primary"
+        },
+        {
+          "region": "World",
+          "platforms": ["Apple", "Windows"],
+          "type": "Launch Trailer",
+          "title": "https://youtube.com/watch?438893",
+          "Edition": "Primary"
+        }
+      ],
+      "release_publications": [
+        {
+          "region": "Japan",
+          "platforms": ["PS4", "Apple", "Windows"],
+          "company": "Test Company-1",
+          "release_date": "2021-10-10",
+          "Edition": ["Primary", "Gold"],
+          "distribution": "Online + Retail",
+          "distribution_platforms": ["PS4", "Windows"]
+        },
+        {
+          "region": "World",
+          "platforms": ["PS4", "Apple"],
+          "company": "Test Company-2",
+          "release_date": "2021-12-10",
+          "Edition": ["Primary", "Gold"],
+          "distribution": "Online + Retail",
+          "distribution_platforms": ["PS4", "Apple"]
+        }
+      ],
+      "discription_and_keyfeatures": [
+        {
+          "region": "World",
+          "platforms": ["Apple", "Windows"],
+          "description": "Test description",
+          "key_feature": "key feature1, key feature2",
+          "Edition": "Primary",
+          "distribution": "Online + Retail"
+        },
+        {
+          "region": "World",
+          "platforms": ["PS4", "Windows"],
+          "description": "Test description -2",
+          "key_feature": "key feature1, key feature2",
+          "Edition": "Primary",
+          "distribution": "Online + Retail"
+        }
+      ],
+      "package_content_types": [
+        {
+          "region": ["US", "UK"],
+          "contents": ["Full game", "Pre order DLC", "DLC"],
+          "platforms": ["PS4", "Windows"],
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "distribution_platforms": ["PS4", "Apple"]
+        },
+        {
+          "region": ["Japan", "UK"],
+          "contents": ["Full game", "Pre order DLC", "DLC"],
+          "platforms": ["PS4", "Windows"],
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "distribution_platforms": ["PS4", "Apple"]
+        }
+      ],
+      "age_ratings": [
+        {
+          "region": "Japan",
+          "descriptors": ["Blood", "Violence"],
+          "platforms": ["PS4", "Windows"],
+          "age_rating": "Mature"
+        },
+        {
+          "region": "US",
+          "descriptors": ["Violence"],
+          "platforms": ["PS4", "Windows"],
+          "age_rating": "18+"
+        }
+      ],
+      "store_links_skus": [
+        {
+          "region": "World",
+          "platform": "PS4",
+          "link": "https://test.gameopedia.com/",
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "sky": "12345",
+          "barcode": "134354545",
+          "msrp": "99.99",
+          "retailer_sku": "436654"
+        },
+        {
+          "region": "US",
+          "platform": "Windows",
+          "link": "https://test.gameopedia.com/",
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "sky": "545343",
+          "barcode": "5554354545",
+          "msrp": "99.99",
+          "retailer_sku": "tt436654"
+        }
+      ],
+      "cover_images": [
+        {
+          "region": ["US", "UK"],
+          "platforms": ["PS4", "Windows"],
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "image": "https://test.gameopedia.com/media/image-1.jpg"
+        },
+        {
+          "region": ["US", "UK"],
+          "platforms": ["PS4", "Windows"],
+          "Edition": "Primary",
+          "distribution": "Online + Retail",
+          "image": "https://test.gameopedia.com/media/image-1.jpg"
+        }
+      ],
+      "platforms": [
+        {
+          "id": 1,
+          "name": "Xbox"
+        },
+        {
+          "id": 2,
+          "name": "PS4"
+        },
+        {
+          "id": 3,
+          "name": "Windows"
+        }
+      ],
+      "regions": [
+        {
+          "id": 1,
+          "name": "World"
+        },
+        {
+          "id": 2,
+          "name": "Japan"
+        },
+        {
+          "id": 3,
+          "name": "US"
+        }
+      ],
+      "editions": [
+        {
+          "id": 1,
+          "name": "Primary"
+        },
+        {
+          "id": 2,
+          "name": "Final"
+        }
+      ],
+      "distributions": [
+        {
+          "id": 1,
+          "name": "Stream"
+        },
+        {
+          "id": 1,
+          "name": "Online+Retail"
+        }
+      ]
+    }
+  ]
+}
